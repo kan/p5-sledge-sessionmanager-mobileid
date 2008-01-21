@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use base 'Sledge::SessionManager';
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 use Digest::SHA1 qw(sha1_hex);
 use Time::HiRes qw(gettimeofday);
